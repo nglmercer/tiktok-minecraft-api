@@ -1,0 +1,45 @@
+{
+  "chat": [
+    "/tellraw @a {\"text\":\"{uniqueId}: {comment}\", \"color\":\"gold\"}",
+    "/execute at {playername} run give {playername} {item}",
+    "/execute at {playername} run summon {mob}"
+  ],
+  "gift": {
+    "default": [
+      "/tellraw @a {\"text\":\"{uniqueId} sent a {giftName} x{repeatCount}\", \"color\":\"gold\"}"
+    ],
+    "playername": "melser"
+  },
+  "envelope": [
+    "/tellraw @a {\"text\":\"{uniqueId} comment cofreeeee\", \"color\":\"gold\"}",
+    "/say {uniqueId} comment cofreeeee",
+    "/execute at {playername} run playsound minecraft:entity.player.levelup ambient @p"
+  ],
+  "subscribe": [
+    "/tellraw @a {\"text\":\"{uniqueId} subscribe\", \"color\":\"gold\"}",
+    "/say {uniqueId} subscribe subscribe",
+    "/execute at {playername} run playsound minecraft:entity.player.levelup ambient @p"
+  ],
+  "follow": [
+    "/tellraw @a {\"text\":\"{uniqueId} te sige\", \"color\":\"gold\"}",
+    "/execute at {playername} run playsound minecraft:entity.player.levelup ambient @p"
+  ],
+  "welcome": [
+    ""
+  ],
+  "share": [
+    "/tellraw @a {\"text\":\"{uniqueId} compartio\", \"color\":\"gold\"}",
+    "/execute at {playername} run playsound minecraft:entity.player.levelup ambient @p"
+  ],
+  "playername": "melser",
+  "lastChat": "yadirardz1ma",
+  "lastFollow": "clovislandrover",
+  "lastShare": "mery64034",
+  "Chat": "nathalygarca57",
+  "Welcome": "alexcoc1122",
+  "Share": "jimmmy_2.0",
+  "Follow": "user5793185252630",
+  "lastSubscribe": "ainagigantecomas",
+  "lastEnvelope": "misterlobo_",
+  "lastWelcome": "sharonespinozacru"
+}
